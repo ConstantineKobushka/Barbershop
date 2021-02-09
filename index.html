@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Барбершоп</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+
+  <header class="main__header">
+    <div class="container">
+      <div class="main__header-inner">
+        <div class="main__navigation-row">
+          <div class="main__header-logo">
+            <a class="header__logo" href="index.html">
+              <img src="images/logo.svg" alt="Логотип" />
+            </a>
+          </div>
+          <nav class="main__navigation">
+            <div class="site__navigation-btn">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <ul class="site__navigation">
+              <li><a class="site__navigation-link active" href="#">главная</a></li>
+              <li><a class="site__navigation-link" href="#blog">НОВОСТИ</a></li>
+              <li><a class="site__navigation-link" href="price.html">ПРАЙС-ЛИСТ</a></li>
+              <li><a class="site__navigation-link" href="shop.html">МАГАЗИН</a></li>
+              <li><a class="site__navigation-link" href="#connection">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="user__navigation">
+          <li><a class="login__link" href="">ВХОД</a></li>
+        </ul>
+      </div>
+  </header>
+
+  <main class="main__content">
+
+    <div class="container">
+      <h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
+      <div class="main__content-logo">
+        <a>
+          <img src="images/index-logo.svg" alt="Логотип" />
+        </a>
+      </div>
+    </div>
+
+    <section class="advantages">
+      <div class="container">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <div class="advantages__inner">
+          <div class="advantages__item">
+            <h3 class="advantages__item-title title">БЫСТРО</h3>
+            <p class="advantages__item-text">
+              МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ —
+              СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+            </p>
+          </div>
+          <div class="advantages__item">
+            <h3 class="advantages__item-title title">КРУТО</h3>
+            <p class="advantages__item-text">
+              ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ
+              ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+            </p>
+          </div>
+          <div class="advantages__item">
+            <h3 class="advantages__item-title title">ДОРОГО</h3>
+            <p class="advantages__item-text">
+              НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ
+              ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="blog">
+      <div class="container">
+        <div class="blog__inner">
+          <div class="blog__news">
+            <h2 class="blog__news-title title">Новости</h2>
+            <p class="blog__news-text">
+              НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ
+              СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+            </p>
+            <p class="blog__news-date">11 января</p>
+            <p class="blog__news-text">
+              В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ
+              МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+            </p>
+            <p class="blog__news-date">18 января</p>
+            <a class="blog__news-btn btn" href="#">ВСЕ НОВОСТИ</a>
+          </div>
+          <div class="blog__gallery">
+            <h2 class="blog__gallery-title title">ФОТОГАЛЕРЕЯ</h2>
+            <div class="blog__gallery-inner">
+              <a class="blog__gallery-content" href="images/hall.jpg" data-fancybox="images" data-width="2048"
+                data-height>
+                <img src="images/hall.jpg" alt="Интерьер" />
+              </a>
+              <a class="blog__gallery-content" href="images/hall.jpg" data-fancybox="images" data-width="2048"
+                data-height>
+                <img src="images/hall.jpg" alt="Интерьер" />
+              </a>
+              <a class="blog__gallery-content" href="images/hall.jpg" data-fancybox="images" data-width="2048"
+                data-height>
+                <img src="images/hall.jpg" alt="Интерьер" />
+              </a>
+              <a class="blog__gallery-content" href="images/hall.jpg" data-fancybox="images" data-width="2048"
+                data-height>
+                <img src="images/hall.jpg" alt="Интерьер" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="connection" class="connection">
+      <div class="container">
+        <div class="connection__inner">
+          <div class="connection__contacts">
+            <h2 class="connection__contacts-title title">
+              Контактная информация
+            </h2>
+            <ul class="connection__contacts-list">
+              <li>БАРБЕРШОП «БОРОДИНСКИЙ»</li>
+              <li>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8</li>
+              <li>
+                <a class="connection__contacts-list--phone" href="tel:+74956660266">ТЕЛЕФОН: +7 (495) 666-02-66</a>
+              </li>
+            </ul>
+            <ul class="connection__contacts-list">
+              <li>ВРЕМЯ РАБОТЫ:</li>
+              <li>ПН—ПТ: С 10:00 ДО 22:00</li>
+              <li>СБ—ВС: С 10:00 ДО 19:00</li>
+            </ul>
+            <ul class="connection__contacts-list connection__contacts-list--btn">
+              <li>
+                <a class="connection__contacts-btn btn" href="#">
+                  КАК ПРОЕХАТЬ
+                </a>
+              </li>
+              <li>
+                <a class="connection__contacts-btn btn" href="#">
+                  ОБРАТНАЯ СВЯЗЬ
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="connection__appointment">
+            <h2 class="connection__contacts-title title">Записаться</h2>
+            <p class="connection__appointment-text">
+              УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ
+              ПОДТВЕРЖДЕНИЯ БРОНИ
+            </p>
+            <form>
+              <div class="connection__appointment-inner">
+                <div>
+                  <p>ДАТА</p>
+                  <input type="text" placeholder="08.10.2017">
+                  <p>ВАШЕ ИМЯ</p>
+                  <input type="text" placeholder="Борода">
+                </div>
+                <div>
+                  <p>ВРЕМЯ</p>
+                  <input type="text" placeholder="10:00">
+                  <p>ТЕЛЕФОН</p>
+                  <input type="phone" placeholder="+7 123 456-78-90">
+                </div>
+              </div>
+              <button class="connection__appointment-btn btn" type="submit">ОТПРАВИТЬ</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__address">
+          <ul class="footer__address-list">
+            <li>барбершоп «БОРОДИНСКИЙ»</li>
+            <li>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ <br> УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</li>
+            <li><a class="footer__item-link" href="#">КАК НАС НАЙТИ?</a></li>
+            <li><a class="footer__item-link" href="tel:+74956660266">ТЕЛЕФОН: +7 (495) 666-02-66</a></li>
+          </ul>
+        </div>
+        <div class="footer__cosial">
+          <div class="footer__cosial-title">ДАВАЙТЕ ДРУЖИТЬ!</div>
+          <div class="footer__cosial-list">
+            <a class="vkontakte" href="#"></a>
+            <a class="facebook" href="#"></a>
+            <a class="instagram" href="#"></a>
+          </div>
+        </div>
+        <div class="footer__autor">
+          <div class="footer__autor-title">РАЗРАБОТАНО:</div>
+          <a class="footer__autor-btn btn" href="#">author</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
